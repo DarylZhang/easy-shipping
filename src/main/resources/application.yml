@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: supertrip-gateway
+#  http:
+#    converters:
+#      preferred-json-mapper: gson
+  datasource:
+    url: jdbc:postgresql://localhost:5432/easy-shopping?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: postgres
+    password: Adgjl!2345
+  jpa:
+    show-sql: true
